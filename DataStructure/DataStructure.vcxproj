@@ -127,8 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="LinkedList.c" />
-    <ClCompile Include="Test_LinkedList.c" />
+    <ClCompile Include="LinkedList.cpp" />
+    <ClCompile Include="Test_LinkedList.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LinkedList.h" />
