@@ -13,6 +13,9 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
+    <Filter Include="CircularLinkedList">
+      <UniqueIdentifier>{e36d2acd-e674-4b7a-9071-205570e1a691}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Test_LinkedList.cpp">
@@ -21,10 +24,22 @@
     <ClCompile Include="LinkedList.cpp">
       <Filter>LinkedList</Filter>
     </ClCompile>
+    <ClCompile Include="CLLwithClass.cpp">
+      <Filter>CircularLinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="JosephuswithClass.cpp">
+      <Filter>CircularLinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="RotateQueue.cpp">
+      <Filter>DoubleLinkedList</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LinkedList.h">
       <Filter>LinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="CLLwithClass.h">
+      <Filter>CircularLinkedList</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -32,7 +32,6 @@ int main()
 		Current = SLL_GetNodeAt(List, i);
 		cout << "List[" << i << "] : " << Current->Data << "\n";
 	}
-
 	// 리스트의 세 번째 노드 뒤에 새 노드 삽입
 	cout << "Inserting 3000 After [2]...\n";
 
