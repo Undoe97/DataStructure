@@ -43,6 +43,8 @@ int main() {
 			}
 			pop(l);
 		}
+
+
 		else {
 			while (l->head->data != find) {
 				moveRight(l);

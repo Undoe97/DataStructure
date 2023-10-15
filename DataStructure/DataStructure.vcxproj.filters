@@ -16,6 +16,9 @@
     <Filter Include="CircularLinkedList">
       <UniqueIdentifier>{e36d2acd-e674-4b7a-9071-205570e1a691}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ArrayStack">
+      <UniqueIdentifier>{07e85a54-084b-4cb4-a5fd-ae76b791bfc1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Test_LinkedList.cpp">
@@ -32,6 +35,12 @@
     </ClCompile>
     <ClCompile Include="RotateQueue.cpp">
       <Filter>DoubleLinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayStack.cpp">
+      <Filter>ArrayStack</Filter>
+    </ClCompile>
+    <ClCompile Include="Zero.cpp">
+      <Filter>ArrayStack</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
