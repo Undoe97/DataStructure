@@ -19,6 +19,9 @@
     <Filter Include="ArrayStack">
       <UniqueIdentifier>{07e85a54-084b-4cb4-a5fd-ae76b791bfc1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="LinkedListStack">
+      <UniqueIdentifier>{5b0a8416-c54a-4898-9c30-653657c1c764}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Test_LinkedList.cpp">
@@ -41,6 +44,12 @@
     </ClCompile>
     <ClCompile Include="Zero.cpp">
       <Filter>ArrayStack</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedListStack.cpp">
+      <Filter>LinkedListStack</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack2.cpp">
+      <Filter>LinkedListStack</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
