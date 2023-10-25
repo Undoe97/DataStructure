@@ -22,6 +22,9 @@
     <Filter Include="LinkedListStack">
       <UniqueIdentifier>{5b0a8416-c54a-4898-9c30-653657c1c764}</UniqueIdentifier>
     </Filter>
+    <Filter Include="CircularQueue">
+      <UniqueIdentifier>{16e7485a-6b80-41cc-b173-9e618fcb7633}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Test_LinkedList.cpp">
@@ -29,9 +32,6 @@
     </ClCompile>
     <ClCompile Include="LinkedList.cpp">
       <Filter>LinkedList</Filter>
-    </ClCompile>
-    <ClCompile Include="CLLwithClass.cpp">
-      <Filter>CircularLinkedList</Filter>
     </ClCompile>
     <ClCompile Include="JosephuswithClass.cpp">
       <Filter>CircularLinkedList</Filter>
@@ -51,13 +51,16 @@
     <ClCompile Include="Stack2.cpp">
       <Filter>LinkedListStack</Filter>
     </ClCompile>
+    <ClCompile Include="CircularQueue.cpp">
+      <Filter>CircularQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="Card2.cpp">
+      <Filter>CircularQueue</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LinkedList.h">
       <Filter>LinkedList</Filter>
-    </ClInclude>
-    <ClInclude Include="CLLwithClass.h">
-      <Filter>CircularLinkedList</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
