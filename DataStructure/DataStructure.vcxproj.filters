@@ -25,6 +25,9 @@
     <Filter Include="CircularQueue">
       <UniqueIdentifier>{16e7485a-6b80-41cc-b173-9e618fcb7633}</UniqueIdentifier>
     </Filter>
+    <Filter Include="LinkedListQueue">
+      <UniqueIdentifier>{6728b4d3-f635-43b8-b0c2-5f8aa8e300eb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Test_LinkedList.cpp">
@@ -56,6 +59,12 @@
     </ClCompile>
     <ClCompile Include="Card2.cpp">
       <Filter>CircularQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedListQueue.cpp">
+      <Filter>LinkedListQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="PrinterQueue.cpp">
+      <Filter>LinkedListQueue</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
