@@ -28,6 +28,9 @@
     <Filter Include="LinkedListQueue">
       <UniqueIdentifier>{6728b4d3-f635-43b8-b0c2-5f8aa8e300eb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="BinaryTree">
+      <UniqueIdentifier>{96e389d6-2d9a-4f44-953b-c0a707b41429}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Test_LinkedList.cpp">
@@ -65,6 +68,12 @@
     </ClCompile>
     <ClCompile Include="PrinterQueue.cpp">
       <Filter>LinkedListQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTree.cpp">
+      <Filter>BinaryTree</Filter>
+    </ClCompile>
+    <ClCompile Include="MyBinaryTree.cpp">
+      <Filter>BinaryTree</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
