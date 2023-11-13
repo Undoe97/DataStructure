@@ -31,6 +31,9 @@
     <Filter Include="BinaryTree">
       <UniqueIdentifier>{96e389d6-2d9a-4f44-953b-c0a707b41429}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ExpressionTree">
+      <UniqueIdentifier>{9a11239d-f713-465a-996d-f46b1f8c0dcc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Test_LinkedList.cpp">
@@ -74,6 +77,12 @@
     </ClCompile>
     <ClCompile Include="MyBinaryTree.cpp">
       <Filter>BinaryTree</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpressionTree.cpp">
+      <Filter>ExpressionTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Postorder2.cpp">
+      <Filter>ExpressionTree</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
