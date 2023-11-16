@@ -34,6 +34,9 @@
     <Filter Include="ExpressionTree">
       <UniqueIdentifier>{9a11239d-f713-465a-996d-f46b1f8c0dcc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="BubbleSort">
+      <UniqueIdentifier>{2f74b7ef-7f95-46ba-b637-d5a8e727672d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Test_LinkedList.cpp">
@@ -83,6 +86,9 @@
     </ClCompile>
     <ClCompile Include="Postorder2.cpp">
       <Filter>ExpressionTree</Filter>
+    </ClCompile>
+    <ClCompile Include="ATM.cpp">
+      <Filter>BubbleSort</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
