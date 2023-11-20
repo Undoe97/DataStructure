@@ -37,6 +37,9 @@
     <Filter Include="BubbleSort">
       <UniqueIdentifier>{2f74b7ef-7f95-46ba-b637-d5a8e727672d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="InsertionSort">
+      <UniqueIdentifier>{3fc81284-85a3-47a5-bdcb-18a245edbb47}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Test_LinkedList.cpp">
@@ -89,6 +92,12 @@
     </ClCompile>
     <ClCompile Include="ATM.cpp">
       <Filter>BubbleSort</Filter>
+    </ClCompile>
+    <ClCompile Include="InsertionSort.cpp">
+      <Filter>InsertionSort</Filter>
+    </ClCompile>
+    <ClCompile Include="InsertionSortPractice.cpp">
+      <Filter>InsertionSort</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
