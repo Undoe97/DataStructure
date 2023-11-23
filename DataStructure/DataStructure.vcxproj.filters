@@ -40,6 +40,12 @@
     <Filter Include="InsertionSort">
       <UniqueIdentifier>{3fc81284-85a3-47a5-bdcb-18a245edbb47}</UniqueIdentifier>
     </Filter>
+    <Filter Include="QuickSort">
+      <UniqueIdentifier>{e75d84f5-4fde-46ea-9965-b77db958ff6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BinarySearch">
+      <UniqueIdentifier>{9fae1a7d-f989-4a33-8acd-c1fa097f1420}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Test_LinkedList.cpp">
@@ -98,6 +104,12 @@
     </ClCompile>
     <ClCompile Include="InsertionSortPractice.cpp">
       <Filter>InsertionSort</Filter>
+    </ClCompile>
+    <ClCompile Include="QuickSort.cpp">
+      <Filter>QuickSort</Filter>
+    </ClCompile>
+    <ClCompile Include="QuickSort3.cpp">
+      <Filter>QuickSort</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
