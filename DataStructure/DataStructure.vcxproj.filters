@@ -111,6 +111,9 @@
     <ClCompile Include="QuickSort3.cpp">
       <Filter>QuickSort</Filter>
     </ClCompile>
+    <ClCompile Include="BinarySearch.cpp">
+      <Filter>BinarySearch</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LinkedList.h">
