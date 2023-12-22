@@ -46,6 +46,15 @@
     <Filter Include="BinarySearch">
       <UniqueIdentifier>{9fae1a7d-f989-4a33-8acd-c1fa097f1420}</UniqueIdentifier>
     </Filter>
+    <Filter Include="FIndNumber">
+      <UniqueIdentifier>{6ad86616-4132-4743-9a69-06b5e3bda0f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NewFilter2">
+      <UniqueIdentifier>{a1b771bf-1576-49d0-a646-0b1d3a8170a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HeapTree">
+      <UniqueIdentifier>{fff3240a-b177-4fa3-8e23-bec7347e5eff}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Test_LinkedList.cpp">
@@ -113,6 +122,12 @@
     </ClCompile>
     <ClCompile Include="BinarySearch.cpp">
       <Filter>BinarySearch</Filter>
+    </ClCompile>
+    <ClCompile Include="FindNumber.cpp">
+      <Filter>FIndNumber</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenAddress.cpp">
+      <Filter>HeapTree</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
